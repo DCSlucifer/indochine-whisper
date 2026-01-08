@@ -1,6 +1,7 @@
 import { ReactNode } from 'react'
 import { TopNav } from '@/components/navigation/TopNav'
 import { GrainOverlay } from '@/components/overlays/GrainOverlay'
+import { MusicPlayer } from '@/components/ui/MusicPlayer'
 
 interface LayoutShellProps {
   children: ReactNode
@@ -14,6 +15,7 @@ export function LayoutShell({ children, transparentNav = false, showNav = true }
       {showNav && <TopNav transparent={transparentNav} />}
       <main>{children}</main>
       <GrainOverlay />
+      <MusicPlayer />
     </>
   )
 }
