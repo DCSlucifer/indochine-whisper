@@ -53,7 +53,7 @@ export default function LookbookPage() {
           </div>
 
           <Link href="/" className="font-heading text-xl tracking-wide text-[#1A1A1A]">
-            INDOCHINE
+            THE MUSE
           </Link>
 
           <div className="flex items-center gap-4">
@@ -108,7 +108,7 @@ export default function LookbookPage() {
                 transition={{ delay: 0.3, duration: 0.8 }}
                 className="font-heading text-4xl font-light tracking-tight sm:text-6xl lg:text-7xl"
               >
-                INDOCHINE WHISPER
+                THE MUSE
               </motion.h1>
 
               <motion.div
@@ -126,7 +126,7 @@ export default function LookbookPage() {
                 transition={{ delay: 0.6, duration: 0.8 }}
                 className="font-heading text-lg italic opacity-80 sm:text-xl"
               >
-                DÁNG XƯA — một thoáng hoài niệm
+                Captured moments of my Darling.
               </motion.p>
             </div>
           </div>

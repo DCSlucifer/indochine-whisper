@@ -38,7 +38,7 @@ export default function GalleryPage() {
             </h1>
             <div className="editorial-rule mx-auto my-6 w-16" />
             <p className="font-heading text-lg italic text-[#1A1A1A]/70">
-              DÁNG XƯA — một thoáng hoài niệm
+              Captured moments of my Darling.
             </p>
           </motion.div>
 

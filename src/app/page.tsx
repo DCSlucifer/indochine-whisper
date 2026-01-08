@@ -43,13 +43,13 @@ export default function HomePage() {
             transition={{ duration: 1, ease: [0, 0, 0.2, 1] }}
           >
             <h1 className="font-heading text-5xl font-light tracking-tight text-[#1A1A1A] sm:text-7xl lg:text-[6rem]">
-              INDOCHINE WHISPER
+              THE MUSE
             </h1>
 
             <div className="editorial-rule mx-auto my-8 w-24" />
 
             <p className="font-heading text-lg italic text-[#1A1A1A]/80 sm:text-xl lg:text-2xl">
-              DÁNG XƯA — một thoáng hoài niệm
+              Captured moments of my Darling.
             </p>
 
             <motion.div
@@ -62,7 +62,7 @@ export default function HomePage() {
                 href="/lookbook"
                 className="group inline-flex items-center gap-3 border border-[#A63A30] px-8 py-4 text-caption text-[#A63A30] transition-all hover:bg-[#A63A30] hover:text-[#D9CBB8]"
               >
-                <span>Enter Lookbook</span>
+                <span>Explore the Muse</span>
                 <svg
                   width="20"
                   height="20"

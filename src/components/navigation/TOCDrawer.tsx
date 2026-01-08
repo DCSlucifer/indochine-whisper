@@ -79,7 +79,7 @@ export function TOCDrawer({ onNavigate }: TOCDrawerProps) {
             <div className="editorial-rule my-6" />
 
             <p className="font-heading text-xs italic text-[#1A1A1A]/60">
-              DÁNG XƯA — một thoáng hoài niệm
+              Captured moments of my Darling.
             </p>
           </motion.div>
         </>

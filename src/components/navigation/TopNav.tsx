@@ -10,7 +10,7 @@ const navLinks = [
   { href: '/lookbook', label: 'Lookbook' },
   { href: '/gallery', label: 'Gallery' },
   { href: '/about', label: 'About' },
-  { href: '/contact', label: 'Contact' },
+  { href: '/contact', label: 'For Darling' },
 ]
 
 interface TopNavProps {
@@ -31,7 +31,7 @@ export function TopNav({ transparent = false }: TopNavProps) {
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-12">
           {/* Logo */}
           <Link href="/" className="font-heading text-xl tracking-wide text-[#1A1A1A]">
-            INDOCHINE
+            THE MUSE
           </Link>
 
           {/* Desktop Navigation */}

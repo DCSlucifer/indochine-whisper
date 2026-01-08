@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Playfair_Display, Inter } from 'next/font/google'
+import { Playfair_Display, Inter, Cormorant_Garamond } from 'next/font/google'
 import { AppProvider } from '@/contexts/AppContext'
 import './globals.css'
 
@@ -15,13 +15,21 @@ const inter = Inter({
   display: 'swap',
 })
 
+const cormorant = Cormorant_Garamond({
+  subsets: ['latin', 'vietnamese'],
+  weight: ['300', '400', '500'],
+  style: ['normal', 'italic'],
+  variable: '--font-cormorant',
+  display: 'swap',
+})
+
 export const metadata: Metadata = {
-  title: 'INDOCHINE WHISPER | DÁNG XƯA — một thoáng hoài niệm',
-  description: 'A high-fashion editorial lookbook exploring the nostalgic beauty of Indochine aesthetics. Vintage, cinematic, and deeply evocative.',
-  keywords: ['Indochine', 'lookbook', 'fashion', 'editorial', 'vintage', 'Saigon', 'photography'],
+  title: 'THE MUSE | Captured moments of my Darling',
+  description: 'A personal lookbook celebrating the beauty and grace of my darling. Vintage, cinematic, and deeply romantic.',
+  keywords: ['lookbook', 'fashion', 'editorial', 'vintage', 'photography', 'love', 'muse'],
   openGraph: {
-    title: 'INDOCHINE WHISPER',
-    description: 'DÁNG XƯA — một thoáng hoài niệm',
+    title: 'THE MUSE',
+    description: 'Captured moments of my Darling.',
     type: 'website',
   },
 }
@@ -32,7 +40,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="vi" className={`${playfair.variable} ${inter.variable}`}>
+    <html lang="vi" className={`${playfair.variable} ${inter.variable} ${cormorant.variable}`}>
       <body className="antialiased">
         <AppProvider>{children}</AppProvider>
       </body>

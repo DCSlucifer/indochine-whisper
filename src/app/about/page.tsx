@@ -46,28 +46,24 @@ export default function AboutPage() {
 
               <div className="space-y-6 font-body text-[#1A1A1A]/80">
                 <p className="leading-relaxed">
-                  <span className="font-heading text-2xl italic">&ldquo;INDOCHINE WHISPER&rdquo;</span> là một
-                  lookbook editorial khám phá vẻ đẹp hoài niệm của thời kỳ Đông Dương — nơi giao thoa giữa
-                  văn hóa Việt Nam và kiến trúc thuộc địa Pháp.
+                  <span className="font-heading text-2xl italic">&ldquo;THE MUSE&rdquo;</span> là một
+                  lookbook editorial lưu giữ những khoảnh khắc đẹp nhất, Hương Liên —
+                  nguồn cảm hứng bất tận của anh.
                 </p>
 
                 <p className="leading-relaxed">
-                  Bộ ảnh được thực hiện tại những công trình kiến trúc cổ kính của Sài Gòn,
-                  với ánh sáng tự nhiên xuyên qua những khung cửa chớp gỗ tạo nên những vệt bóng đổ mềm mại,
-                  gợi nhớ về một thời kỳ thanh lịch đã qua.
+                  Không cầu kỳ hoa mỹ, bộ lookbook này chỉ đơn giản là cách anh muốn 'đóng băng' thời gian. Anh muốn giữ lại khoảnh khắc em đứng bên khung cửa gỗ Sài Gòn, khi vệt nắng chiều vô tình vương trên mái tóc.
                 </p>
 
                 <p className="leading-relaxed">
-                  Chiếc áo dài linen terracotta — màu của đất, của rễ nguồn —
-                  kết hợp cùng những phụ kiện thủ công truyền thống như quạt nan, hoa huệ tây,
-                  tạo nên một câu chuyện thị giác đậm chất điện ảnh.
+                  Sắc mộc mạc của áo dài Linen, nét duyên thầm bên đóa huệ tây... tất cả tạo nên một bức tranh ký ức mà anh trân quý nhất. Đây không chỉ là những tấm ảnh, đây là cách anh nhìn thấy em: Đẹp, bình yên và duy nhất.
                 </p>
               </div>
 
               <div className="editorial-rule my-8 w-16" />
 
               <p className="font-heading text-lg italic text-[#A63A30]">
-                DÁNG XƯA — một thoáng hoài niệm
+                Captured moments of my Darling.
               </p>
 
               <div className="mt-12">
