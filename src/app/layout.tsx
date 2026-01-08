@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Playfair_Display, Inter, Cormorant_Garamond } from 'next/font/google'
 import { AppProvider } from '@/contexts/AppContext'
+import { GlobalMusicPlayer } from '@/components/ui/GlobalMusicPlayer'
 import './globals.css'
 
 const playfair = Playfair_Display({
@@ -42,8 +43,12 @@ export default function RootLayout({
   return (
     <html lang="vi" className={`${playfair.variable} ${inter.variable} ${cormorant.variable}`}>
       <body className="antialiased">
-        <AppProvider>{children}</AppProvider>
+        <AppProvider>
+          {children}
+          <GlobalMusicPlayer />
+        </AppProvider>
       </body>
     </html>
   )
 }
+
